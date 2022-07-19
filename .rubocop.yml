@@ -1,0 +1,19 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/FormatString:
+  EnforcedStyle: sprintf
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/StringConcatenation:
+  Mode: conservative
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+Layout/HashAlignment:
+  EnforcedColonStyle: table
